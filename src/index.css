@@ -1,0 +1,15 @@
+@import "tailwindcss";
+@plugin "daisyui";
+
+@plugin "daisyui" {
+  themes: light --default, dark --prefersdark, bumblebee;
+}
+/* 
+body {
+    padding: 0 2rem;
+    margin: 0;
+    box-sizing: border-box;
+} */
+ body {
+  font-family: "Poppins", sans-serif;
+ }
