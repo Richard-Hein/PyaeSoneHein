@@ -35,7 +35,7 @@ const MySkills = () => {
         coming from in my path , I won't take a blink to learn those. I love
         learning new things. Here is my current frameworks and tools.
       </p>
-      <div className="grid grid-cols-3 md:grid-cols-5 gap-2 ">
+      <div className="grid grid-cols-3 md:grid-cols-5 md:gap-2 ">
         <motion.div
           initial={{ y: -100 }} 
           whileInView={{ y: 0 }}

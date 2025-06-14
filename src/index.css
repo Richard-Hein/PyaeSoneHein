@@ -1,15 +1,22 @@
 @import "tailwindcss";
 @plugin "daisyui";
 
+@theme {
+  --breakpoint-md: 30rem;
+  /* --breakpoint-2xl: 100rem;
+  --breakpoint-3xl: 120rem; */
+}
 @plugin "daisyui" {
   themes: light --default, dark --prefersdark, bumblebee;
 }
 /* 
+
 body {
     padding: 0 2rem;
     margin: 0;
     box-sizing: border-box;
 } */
  body {
+  
   font-family: "Poppins", sans-serif;
  }

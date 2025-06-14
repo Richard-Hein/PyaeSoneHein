@@ -11,14 +11,10 @@ import Header from "./sections/Header"
 function App() {
   
   
-// style={{
-//     backgroundImage:
-//       "url(https://img.daisyui.com/images/stock/photo-1507358522600-9f71e620c44e.webp)",}}
   return (
     <div className="max-w-screen">
     <Header/>
-     <Hero/>
-     {/* <div className="divider divider-primary"></div> */}
+     <Hero/>{/* <div className="divider divider-primary"></div> */}
      <AboutMe />
      <MyJourney/>
      <MySkills/>

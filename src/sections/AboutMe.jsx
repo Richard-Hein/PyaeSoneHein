@@ -7,7 +7,7 @@ const AboutMe = () => {
         Who Am I ?
       </h2>
 
-      <div className="grid ms-0 md:ms-6  md:grid-cols-2 md:gap-2  relative  mb-[1.5rem]  md:px-4 md:py-2">
+      <div className="grid  md:ms-6  md:grid-cols-2 md:gap-2  relative  mb-[1.5rem]  md:px-4 md:py-2">
         <div className="">
           <motion.img
             initial={{ opacity:0, scale:.5 }} whileInView={{ opacity:1, scale:1 }} transition={{ duration: .8, ease: "easeInOut" }}
@@ -18,14 +18,14 @@ const AboutMe = () => {
           <div className="hidden md:block md:absolute md:top-[25px]  bottom-0 w-[100px] h-[120px] md:w-[300px] md:h-[320px] outline-6 outline-primary rounded-2xl"></div>
         </div>
 
-        <div className="  mt-6 px-4 md:px-2 ">
-          <p className="  text-sm md:text-lg indent-3 md:indent-8">
+        <div className="  mt-6  mx-2 ">
+          <p className=" text-justify  text-sm md:text-lg indent-3 md:indent-8">
             I'm a <b className="text-primary text-">self-taught developer </b> with a strong passion for building
-            interactive, user-friendly web experiences. Although I don't come
-            from a traditional Computer Science background, I've invested
+            interactive, user-friendly web experiences.Although I don't come
+            from a traditional Computer Science background,I've invested
             significant time and effort into learning modern web development
-            through hands-on projects, online tutorials, and real-world problem
-            solving. I'm eager to learn, quick to adapt, and excited to bring
+            through hands-on projects, online tutorials,and real-world problem
+            solving. I'm eager to learn, quick to adapt,and excited to bring
             energy, curiosity, and grit to a development team.
             
           </p>
