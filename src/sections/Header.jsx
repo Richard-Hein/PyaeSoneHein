@@ -1,10 +1,27 @@
+import { useEffect, useState } from "react";
 import MyProfileImage from "../../public/images/psh.jpg";
 
 const Header = () => {
+   const [isScrolled, setIsScrolled] = useState(false);
+
+   useEffect(() => {
+    const handleScroll = () => {
+      // 100vh = window.innerHeight
+      if (window.scrollY > window.innerHeight) {
+        setIsScrolled(true);
+      } else {
+        setIsScrolled(false);
+      }
+    };
+
+    window.addEventListener("scroll", handleScroll);
+
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, []);
     
   return (
     <>
-      <div className="navbar  shadow-sm fixed top-0 px-1 md:px-6  z-40 bg-transparent">
+      <div className={`navbar  shadow-sm fixed top-0 px-1 md:px-6  z-40 transition ease-in  ${isScrolled ? "bg-primary text-white shadow-md" : "bg-transparent"}`}>
         <div className="navbar-start">
           <div className="dropdown">
             <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -29,13 +46,13 @@ const Header = () => {
               className="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow"
             >
               <li className="text-lg font-semibold">
-                <a>About Me</a>
+                <a href="#about-me">About Me</a>
               </li>
               <li className="text-lg font-semibold">
-                <a href="">Experiences</a>
+                <a href="#experiences">Experiences</a>
               </li>
               <li className="text-lg font-semibold">
-                <a>Works</a>
+                <a href="#works">Works</a>
               </li>
             </ul>
           </div>
@@ -51,13 +68,13 @@ const Header = () => {
         <div className="navbar-end hidden lg:flex">
           <ul className="menu menu-horizontal px-1">
             <li className="text-[16px] font-semibold">
-              <a>About Me</a>
+              <a href="#about-me">About Me</a>
             </li>
             <li className="text-[16px] font-semibold">
-              <a href="">Experiences</a>
+              <a href="#experiences">Experiences</a>
             </li>
             <li className="text-[16px] font-semibold">
-              <a>Works</a>
+              <a href="#works">Works</a>
             </li>
           </ul>
         </div>

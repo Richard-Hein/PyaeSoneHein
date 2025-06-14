@@ -6,7 +6,10 @@ import MyProjects from "./sections/MyProjects"
 import Footer from "./sections/Footer"
 import Header from "./sections/Header"
 
+
+
 function App() {
+  
   
 // style={{
 //     backgroundImage:

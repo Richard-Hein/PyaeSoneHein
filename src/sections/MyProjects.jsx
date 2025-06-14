@@ -1,7 +1,7 @@
 import Project from "../components/Project";
 const MyProjects = () => {
   return (
-    <section id="projects" className="max-w-[1000px] mx-auto mt-[5rem]">
+    <section id="works" className="max-w-[1000px] mx-auto mt-[5rem]">
       <h1 className="font-bold text-[1.5rem]  text-center mb-[1.5rem] md:mb-[1.8rem]">
         What I've Built
       </h1>
