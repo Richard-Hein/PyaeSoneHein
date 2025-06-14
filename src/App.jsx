@@ -15,7 +15,7 @@ function App() {
 //     backgroundImage:
 //       "url(https://img.daisyui.com/images/stock/photo-1507358522600-9f71e620c44e.webp)",}}
   return (
-    <>
+    <div className="max-w-screen">
     <Header/>
      <Hero/>
      {/* <div className="divider divider-primary"></div> */}
@@ -28,7 +28,7 @@ function App() {
       {/* <button class="btn btn-primary">One</button>
 <button class="btn btn-secondary">Two</button>
 <button class="btn btn-accent btn-outline">Three</button> */}
-    </>
+    </div>
   )
 }
 

@@ -37,16 +37,16 @@ const MySkills = () => {
       </p>
       <div className="grid grid-cols-3 md:grid-cols-5 gap-2 ">
         <motion.div
-          initial={{ x: -100 }} 
-          whileInView={{ x: 0 }}
+          initial={{ y: -100 }} 
+          whileInView={{ y: 0 }}
           transition={{ duration: 1, ease: "easeIn" }}
           className="bg-amber-100 p-2 mx-auto rounded-lg shadow-lg text-[5rem] border-1 border-gray-300"
         >
           <SiJavascript className=" text-yellow-300" />
         </motion.div>
         <motion.div
-          initial={{ x: -200 }} 
-          whileInView={{ x: 0 }}
+          initial={{ y: -200 }} 
+          whileInView={{ y: 0 }}
           transition={{ duration: 1, ease: "easeIn" }}
           className="bg-amber-100 p-2 mx-auto rounded-lg shadow-lg text-[5rem] border-1 border-gray-300"
         >
@@ -58,16 +58,16 @@ const MySkills = () => {
           <SiPhp className=" text-[#0f32cf]" />
         </motion.div>
         <motion.div
-          initial={{ x: 200 }} 
-          whileInView={{ x: 0 }}
+          initial={{ y: 200 }} 
+          whileInView={{ y: 0 }}
           transition={{ duration: 1, ease: "easeIn" }}
           className="bg-amber-100 p-2 mx-auto rounded-lg shadow-lg text-[5rem] "
         >
           <SiTypescript className=" text-blue-700" />
         </motion.div>
         <motion.div
-          initial={{ x: 100 }} 
-          whileInView={{ x: 0 }}
+          initial={{ y: 100 }} 
+          whileInView={{ y: 0 }}
           transition={{ duration: 1, ease: "easeIn" }}
           className="bg-amber-100 p-2 mx-auto rounded-lg shadow-lg text-[5rem] "
         >
@@ -75,15 +75,15 @@ const MySkills = () => {
         </motion.div>
 
         <motion.div 
-         initial={{ x: -100 }} 
-          whileInView={{ x: 0 }}
+         initial={{ y: -100 }} 
+          whileInView={{ y: 0 }}
           transition={{ duration: 1, ease: "easeIn" }}
         className="bg-amber-100 p-2 mx-auto rounded-lg shadow-lg text-[5rem] ">
           <SiTailwindcss className=" text-[#38BDF8]" />
         </motion.div>
         <motion.div
-         initial={{ x: -200 }} 
-          whileInView={{ x: 0 }}
+         initial={{ y: -200 }} 
+          whileInView={{ y: 0 }}
           transition={{ duration: 1, ease: "easeIn" }}
          className="bg-amber-100 p-2 mx-auto rounded-lg shadow-lg text-[5rem] ">
           <FaReact className="text-[#61DAFB]" />
@@ -96,31 +96,31 @@ const MySkills = () => {
           <FaVuejs className=" text-[#17cc4d]" />
         </motion.div>
         <motion.div
-        initial={{ x: 200 }} 
-          whileInView={{ x: 0 }}
+        initial={{ y: 200 }} 
+          whileInView={{ y: 0 }}
           transition={{ duration: 1, ease: "easeIn" }}
          className="bg-amber-100 p-2 mx-auto rounded-lg shadow-lg text-[5rem] ">
           <SiExpress className=" text-[#000000]" />
         </motion.div>
 
         <motion.div
-         initial={{ x: 100 }} 
-          whileInView={{ x: 0 }}
+         initial={{ y: 100 }} 
+          whileInView={{ y: 0 }}
           transition={{ duration: 1, ease: "easeIn" }}
          className="bg-amber-100 p-2 mx-auto rounded-lg shadow-lg text-[5rem] ">
           <FaLaravel className=" text-[#F9322C]" />
         </motion.div>
 
         <motion.div
-        initial={{ x: -100 }} 
-          whileInView={{ x: 0 }}
+        initial={{ y: -100 }} 
+          whileInView={{ y: 0 }}
           transition={{ duration: 1, ease: "easeIn" }}
          className="bg-amber-100 p-2 mx-auto rounded-lg shadow-lg text-[5rem] ">
           <SiRedux className=" text-blue-700" />
         </motion.div>
         <motion.div
-        initial={{ x: 200 }} 
-          whileInView={{ x: 0 }}
+        initial={{ y: 200 }} 
+          whileInView={{ y: 0 }}
           transition={{ duration: 1, ease: "easeIn" }} 
          className="  w-[135px] h-[80px] md:w-[200px] md:h-[95px]  ">
           <img
@@ -139,15 +139,15 @@ const MySkills = () => {
         </motion.div>
 
         <motion.div 
-         initial={{ x: -200 }} 
-          whileInView={{ x: 0 }}
+         initial={{ y: -200 }} 
+          whileInView={{ y: 0 }}
           transition={{ duration: 1, ease: "easeIn" }} 
         className="bg-amber-100 p-2 mx-auto rounded-lg shadow-lg text-[5rem] ">
           <IoMdLeaf className=" text-[#47A248]" />
         </motion.div>
         <motion.div
-         initial={{ x: -100 }} 
-          whileInView={{ x: 0 }}
+         initial={{ y: -100 }} 
+          whileInView={{ y: 0 }}
           transition={{ duration: 1, ease: "easeIn" }} 
          className="bg-amber-100 p-2 mx-auto rounded-lg shadow-lg text-[5rem] ">
           <FaGitAlt className=" text-[#F05032]" />
