@@ -18,7 +18,7 @@ const AboutMe = () => {
           <div className="hidden md:block md:absolute md:top-[25px]  bottom-0 w-[100px] h-[120px] md:w-[300px] md:h-[320px] outline-6 outline-primary rounded-2xl"></div>
         </div>
 
-        <div className="  mt-6  mx-2 ">
+        <div className="  mt-6 w-[80%] mx-auto">
           <p className=" text-justify  text-sm md:text-lg indent-3 md:indent-8">
             I'm a <b className="text-primary text-">self-taught developer </b> with a strong passion for building
             interactive, user-friendly web experiences.Although I don't come
@@ -29,7 +29,7 @@ const AboutMe = () => {
             energy, curiosity, and grit to a development team.
             
           </p>
-          <div className="stats stats-horizontal mt-4">
+          <div className="stats stats-horizontal mt-4 w-full">
             <div className="stat">
               <div className="stat-title text-md">Learning Journey</div>
               <div className="">
