@@ -14,7 +14,7 @@ const Hero = () => {
           Hello,{" "}
           <motion.div
             className="inline-block text-2xl"
-            animate={{ y: [0, -10, 0] }} // bounce up then down
+            animate={{ y: [0, -10, 0] }} 
             transition={{
               duration: 1,
               repeat: Infinity,
@@ -43,7 +43,7 @@ const Hero = () => {
 
         <h1 className="text-[25px] md:text-4xl font-bold  ">
           <Typewriter
-            words={["Full-Stack Developer", "Self-Taught Programmer"]}
+            words={["Frontend Developer","Backend Developer","Full-Stack Developer"]}
             loop
             cursor
             cursorStyle="|"

@@ -3,7 +3,7 @@ import {motion} from "motion/react"
 const AboutMe = () => {
   return (
     <section id="about-me" className="pt-[25px] bg-base max-w-[1000px]  mx-auto">
-      <h2 className="text-[1.3rem] mb-[2rem] md:text-[1.5rem] md:mb-[4rem]  text-center font-extrabold">
+      <h2 className="underline underline-offset-6 decoration-2 decoration-primary text-[1.3rem] mb-[2rem] md:text-[1.5rem] md:mb-[4rem]  text-center font-extrabold">
         Who Am I ?
       </h2>
 
@@ -18,7 +18,7 @@ const AboutMe = () => {
           <div className="hidden md:block md:absolute md:top-[25px]  bottom-0 w-[100px] h-[120px] md:w-[300px] md:h-[320px] outline-6 outline-primary rounded-2xl"></div>
         </div>
 
-        <div className="  mt-6 w-[80%] mx-auto">
+        <div className="  mt-6 w-[90%] mx-auto ">
           <p className=" text-justify  text-sm md:text-lg indent-3 md:indent-8">
             I'm a <b className="text-primary text-">self-taught developer </b> with a strong passion for building
             interactive, user-friendly web experiences.Although I don't come

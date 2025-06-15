@@ -2,10 +2,10 @@ import Project from "../components/Project";
 const MyProjects = () => {
   return (
     <section id="works" className="max-w-[1000px] mx-auto mt-[5rem]">
-      <h1 className="font-bold text-[1.5rem]  text-center mb-[1.5rem] md:mb-[1.8rem]">
+      <h1 className="underline underline-offset-6 decoration-2 decoration-primary font-bold text-[1.5rem]  text-center mb-[1.5rem] md:mb-[1.8rem]">
         What I've Built
       </h1>
-      <p className="text-md md:text-lg indent-6 md:text-indent-8 mb-[1.8rem] px-2">
+      <p className="text-justify md:text-lg indent-6 md:text-indent-8 mb-[1.8rem] px-2">
         Here are some of my web applications I've built. Each project reflects
         my learning journey, problem-solving approach, and attention to user
         experience.

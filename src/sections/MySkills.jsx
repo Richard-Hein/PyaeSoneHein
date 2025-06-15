@@ -26,10 +26,10 @@ import { motion } from "motion/react";
 const MySkills = () => {
   return (
     <section id="experiences" className="max-w-[1000px] mx-auto">
-      <h1 className="font-bold text-[1.5rem] text-black text-center">
+      <h1 className="underline underline-offset-6 decoration-2 decoration-primary font-bold text-[1.5rem] text-black text-center">
         Experience With
       </h1>
-      <p className="my-[2rem] indent-8 tracking-wide px-2">
+      <p className="text-justify my-[2rem] indent-8 tracking-wide px-2">
         At the moment, I'm using these technologies for building pixel-perfect
         frontends and roubst backend api. If there is another technologies
         coming from in my path , I won't take a blink to learn those. I love
