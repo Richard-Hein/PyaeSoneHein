@@ -1,5 +1,5 @@
 // icons
-import { FaFacebook, FaLinkedin, FaGithub } from "react-icons/fa";
+import { FaFacebook, FaLinkedin, FaGithub, FaTelegram } from "react-icons/fa";
 import { Typewriter } from "react-simple-typewriter";
 
 // Components
@@ -58,7 +58,7 @@ const Hero = () => {
           backend systems.
         </p>
 
-        <div className=" space-x-4">
+        <div className="space-x-2 md:space-x-4">
           <a href="https://ciozlclbenuzsljbzgnh.supabase.co/storage/v1/object/public/temp-bucket//myCV.pdf"
             download="myCV.pdf">
              
@@ -83,7 +83,17 @@ const Hero = () => {
           </a>
           <a href="https://www.linkedin.com/in/pyae-sone-hein-24069b255?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">
             <Icon icon={<FaLinkedin />}> </Icon>
+
           </a>
+          <a href="https://t.me/richard_hein_24">
+            <Icon icon={<FaTelegram  />}> </Icon>
+
+          </a>
+
+
+
+            
+
         </div>
       </div>
 

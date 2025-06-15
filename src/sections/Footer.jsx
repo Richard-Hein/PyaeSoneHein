@@ -1,4 +1,4 @@
-import {FaFacebook,FaGithub,FaLinkedin } from "react-icons/fa"
+import {FaFacebook,FaGithub,FaLinkedin, FaTelegram } from "react-icons/fa"
 import { SiGmail } from "react-icons/si";
 import Icon from "../components/Icon"
 
@@ -20,6 +20,10 @@ const Footer = () => {
         <a href="https://www.linkedin.com/in/pyae-sone-hein-24069b255?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">
           <Icon icon={<FaLinkedin />}> </Icon>
         </a>
+         <a href="https://t.me/richard_hein_24">
+            <Icon icon={<FaTelegram  />}> </Icon>
+
+          </a>
         </div>
      
     </footer>
