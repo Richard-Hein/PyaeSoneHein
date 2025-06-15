@@ -1,11 +1,15 @@
 import {FaFacebook,FaGithub,FaLinkedin } from "react-icons/fa"
+import { SiGmail } from "react-icons/si";
 import Icon from "../components/Icon"
 
 const Footer = () => {
   return (
-    <footer className="  w-full flex justify-between items-center py-6 px-4 border-t-2 mt-5">
-        <h4 className="text-md font-bold hover:underline hover:text-primary "> Pyae Sone Hein</h4>
-        <h4 className="hidden md:inline-block">2025 - All rights served</h4>
+    <footer className="  w-full flex flex-col md:flex-row justify-between space-y-2 items-center py-6 px-4 border-t-2 mt-5">
+        <h4 className="text-md hidden md:inline-block font-bold hover:underline hover:text-primary "> Pyae Sone Hein</h4>
+        <h4 className="">
+          <Icon icon={<SiGmail/>}/>
+          pyaesone.dev.web@gmail.com
+          </h4>
         <div className="space-x-3">
                <a href="https://www.facebook.com/richard.hein.783827?mibextid=ZbWKwL">
           <Icon icon={<FaFacebook />}> </Icon>
