@@ -59,7 +59,7 @@ const Hero = () => {
         </p>
 
         <div className=" space-x-4">
-          <a href="/cv.pdf"
+          <a href="https://ciozlclbenuzsljbzgnh.supabase.co/storage/v1/object/public/temp-bucket//myCV.pdf"
             download="myCV.pdf">
              
           <motion.button
