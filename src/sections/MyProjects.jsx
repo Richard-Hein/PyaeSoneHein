@@ -31,7 +31,7 @@ const MyProjects = () => {
       <Project
         image="/images/nasa.png"
         title="Nasa Mission Explorer"
-        description="Finding Inheritiable Plants With Control Panel Building With React + Express"
+        description="Finding Inheritiable Planets With Control Panel Building With React + Express"
         url="https://github.com/223mark/nasa_ztm"
       />
       <Project

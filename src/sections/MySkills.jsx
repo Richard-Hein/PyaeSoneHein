@@ -50,7 +50,7 @@ const MySkills = () => {
           transition={{ duration: 1, ease: "easeIn" }}
           className="bg-amber-100 p-2 mx-auto rounded-lg shadow-lg text-[5rem] border-1 border-gray-300"
         >
-          <FaNodeJs className=" text-blue-700" />
+          <FaNodeJs className=" text-green-700" />
         </motion.div>
         <motion.div  initial={{ opacity:0, scale:.5 }} 
           whileInView={{ opacity:1, scale:1 }}
