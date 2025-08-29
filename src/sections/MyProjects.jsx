@@ -23,10 +23,18 @@ const MyProjects = () => {
           
       />
       <Project
-        image="/images/lara_pos.png"
-        title="MyStore"
-        description="Eccomerce- Product Selling Website Building With Laravel + Blade"
-        url="https://github.com/223mark/lara11_pos"
+        image="/images/deezer.png"
+        title="Deezer Clone"
+        description="Deezer Clone Website built with Vue3 and Pinia for state management"
+        demo="https://deezer-clone-indol.vercel.app/"
+      />
+      
+       
+      <Project
+        image="/images/natrous.png"
+        title="Natrous Travel"
+        description="Natrous Travel Website built with SASS"
+        demo="https://natours-pink-nine.vercel.app/"
       />
       <Project
         image="/images/nasa.png"

@@ -56,10 +56,12 @@ const Header = () => {
               </li>
             </ul>
           </div>
-          <div className="avatar">
-            <div className="w-[45px] rounded-full">
-              <img src={MyProfileImage} />
-            </div>
+          <div className="">
+            
+              <h1 className="text-[20px] font-bold ">
+                 &lt;Pyae./&gt;
+              </h1>
+
           </div>
         </div>
         {/* <div className="navbar-center ">

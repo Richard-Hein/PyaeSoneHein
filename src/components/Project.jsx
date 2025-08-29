@@ -23,23 +23,17 @@
           
           
           <div className="flex gap-4 mt-4">
-            {demo.length > 0 ? 
-             <a href={demo}>
+            {demo.length > 0 &&(
+             <a href={demo} target="_blank" rel="noreferrer" >
               <motion.button initial={{ opacity:0, scale:.5 }} 
           whileInView={{ opacity:1, scale:1 }}
           transition={{ duration: 1, ease: "easeIn" }}  className="btn btn-primary hover:bg-secondary hover:text-white">
-              See Live
+              See Live (VPN)
             </motion.button>
              </a>
-            
-             :
-            <motion.button initial={{ opacity:0, scale:.5 }} 
-          whileInView={{ opacity:1, scale:1 }}
-          transition={{ duration: 1, ease: "easeIn" }}  className="btn btn-primary cursor-not-allowed hover:bg-secondary hover:text-white">
-              See Live
-            </motion.button>
 
-            }
+
+            )}
             <a href={url} className="flex items-center">
               <button className="text-[15px] font-semibold  hover:underline ">
               Source Code

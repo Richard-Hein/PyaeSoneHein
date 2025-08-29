@@ -5,6 +5,7 @@ import MySkills from "./sections/MySkills"
 import MyProjects from "./sections/MyProjects"
 import Footer from "./sections/Footer"
 import Header from "./sections/Header"
+import  Certificates  from "./sections/Certificates"
 
 
 
@@ -19,6 +20,7 @@ function App() {
      <MyJourney/>
      <MySkills/>
      <MyProjects/>
+     {/* <Certificates/> */}
      <Footer/>
      
       {/* <button class="btn btn-primary">One</button>

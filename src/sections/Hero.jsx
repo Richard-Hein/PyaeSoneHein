@@ -78,13 +78,13 @@ const Hero = () => {
           <a href="https://www.facebook.com/richard.hein.783827?mibextid=ZbWKwL">
             <Icon icon={<FaFacebook />}> </Icon>
           </a>
-          <a href="https://github.com/223mark">
+          <a href="https://github.com/Richard-Hein?tab=repositories">
             <Icon icon={<FaGithub />}> </Icon>
           </a>
-          <a href="https://www.linkedin.com/in/pyae-sone-hein-24069b255?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">
+          {/* <a href="https://www.linkedin.com/in/pyae-sone-hein-24069b255?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">
             <Icon icon={<FaLinkedin />}> </Icon>
 
-          </a>
+          </a> */}
           <a href="https://t.me/richard_hein_24">
             <Icon icon={<FaTelegram  />}> </Icon>
 

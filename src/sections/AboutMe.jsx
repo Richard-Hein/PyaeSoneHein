@@ -35,7 +35,7 @@ const AboutMe = () => {
               <div className="">
                 {" "}
                 <span className="text-3xl text-primary font-extrabold">
-                  + 4
+                  + 2
                 </span>{" "}
                 years
               </div>
