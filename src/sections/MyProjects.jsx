@@ -42,12 +42,15 @@ const MyProjects = () => {
         description="Finding Inheritiable Planets With Control Panel Building With React + Express"
         url="https://github.com/223mark/nasa_ztm"
       />
+
+     
       <Project
-        image="/images/ticket_lab.png"
-        title="Bus Ticket Booking"
-        description="Online Bus Ticketing Website Building With Laravel + Vue"
-        url="https://github.com/223mark/Ticket-Lab"
+        image="/images/lara_pos.png"
+        title="Laravel Ecom Website"
+        description="Ecommerce Website Building With Laravel + Blade"
+        url=" https://github.com/Richard-Hein/Laravel_POS"
       />
+      
     </section>
   );
 };
