@@ -60,7 +60,7 @@ const Hero = () => {
         </p>
 
         <div className="space-x-2 md:space-x-4">
-          <a target="_blank" href="https://clhwgpfvszfxjhqtvypy.supabase.co/storage/v1/object/sign/image/PSH_CV_02.pdf?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV9lZjRkNDkwNi1hM2E0LTQzMGMtODFlNC0yN2M0ZDlmYTBhMWUiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJpbWFnZS9QU0hfQ1ZfMDIucGRmIiwiaWF0IjoxNzY2MDUzMjQ1LCJleHAiOjE3OTc1ODkyNDV9.8D-Lz0CiDEcUE2LD2o-U75ka67M1QupYwv2a_2yoFE0"
+          <a target="_blank" href="https://clhwgpfvszfxjhqtvypy.supabase.co/storage/v1/object/sign/image/PSH_CV_02.pdf?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV9lZjRkNDkwNi1hM2E0LTQzMGMtODFlNC0yN2M0ZDlmYTBhMWUiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJpbWFnZS9QU0hfQ1ZfMDIucGRmIiwiaWF0IjoxNzY2MDUzNjc4LCJleHAiOjE3OTc1ODk2Nzh9.MUwrCSuN9tMKRMxyzmgTaCdbMJwErRuYEpevr7oLegQ"
             download="PSH_CV_02.pdf">
              
           <motion.button
