@@ -7,7 +7,7 @@
   --breakpoint-3xl: 120rem; */
 }
 @plugin "daisyui" {
-  themes: light --default, dark --prefersdark, bumblebee;
+  themes: light --default, dark --prefersdark, cupcake;
 }
 /* 
 
@@ -16,7 +16,31 @@ body {
     margin: 0;
     box-sizing: border-box;
 } */
+
+html {
+  scroll-behavior: smooth;
+}
  body {
   
   font-family: "Poppins", sans-serif;
  }
+
+ section {
+  /* Adjust the 80px to match your header's height */
+  scroll-margin-top: 80px; 
+}
+
+.hero {
+  background-image: url("../public/images/hero-bg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+
+}
+
+.wave-img{
+  padding-top: 5rem;
+  position: absolute;
+  z-index: -1;
+  opacity: 50%;
+  width: 100%;
+}

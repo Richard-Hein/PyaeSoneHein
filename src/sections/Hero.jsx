@@ -1,5 +1,6 @@
 // icons
 import { FaFacebook, FaLinkedin, FaGithub, FaTelegram } from "react-icons/fa";
+
 import { Typewriter } from "react-simple-typewriter";
 
 // Components
@@ -8,8 +9,10 @@ import Icon from "../components/Icon";
 import { motion } from "motion/react";
 const Hero = () => {
   return (
-    <section className="flex bg-gradient-to-tr  from-white via-[#A0C1D1] to-primary justify-items-center items-center  min-h-screen w-full px-[20px] md:px-[30px]  ">
-      <div className="max-w-[30rem]">
+    <section className="hero  flex justify-items-center items-center  min-h-screen w-full px-[20px] md:px-[30px]  " >
+      
+      
+      <div className="max-w-[30rem] text-white">
         <h6 className=" text-lg font-bold">
           Hello,{" "}
           <motion.div
@@ -43,7 +46,7 @@ const Hero = () => {
 
         <h1 className="text-[25px] md:text-4xl font-bold  ">
           <Typewriter
-            words={["Frontend Developer","Backend Developer","Full-Stack Developer"]}
+            words={["Full-Stack Developer"]}
             loop
             cursor
             cursorStyle="|"
@@ -53,14 +56,12 @@ const Hero = () => {
           />
         </h1>
         <p className="py-6">
-          I want to built <b> fast, responsive, and scable web applications </b>{" "}
-          using modern technologies from pixel-perfect frontends to robust
-          backend systems.
+          I specialize in engineering fast, responsive, and scalable web applications. My focus is on leveraging proven technologies to deliver everything from pixel-perfect user interfaces to robust backend architectures
         </p>
 
         <div className="space-x-2 md:space-x-4">
-          <a href="https://ciozlclbenuzsljbzgnh.supabase.co/storage/v1/object/public/temp-bucket/PyaeSoneHein.pdf"
-            download="PyaeSoneHein.pdf">
+          <a target="_blank" href="https://clhwgpfvszfxjhqtvypy.supabase.co/storage/v1/object/sign/image/PSH_CV_02.pdf?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV9lZjRkNDkwNi1hM2E0LTQzMGMtODFlNC0yN2M0ZDlmYTBhMWUiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJpbWFnZS9QU0hfQ1ZfMDIucGRmIiwiaWF0IjoxNzY2MDUzMjQ1LCJleHAiOjE3OTc1ODkyNDV9.8D-Lz0CiDEcUE2LD2o-U75ka67M1QupYwv2a_2yoFE0"
+            download="PSH_CV_02.pdf">
              
           <motion.button
             initial={{ y: 20, opacity: 0 }}
@@ -70,22 +71,22 @@ const Hero = () => {
               ease: "easeIn",
             }}
           
-            className="btn btn-primary"
+            className="btn btn-primary hover:bg-gray-300"
           >
             Download CV
           </motion.button>
           </a>
-          <a href="https://www.facebook.com/richard.hein.783827?mibextid=ZbWKwL">
+          <a href="https://www.facebook.com/richard.hein.783827?mibextid=ZbWKwL"  target="_blank">
             <Icon icon={<FaFacebook />}> </Icon>
           </a>
-          <a href="https://github.com/Richard-Hein?tab=repositories">
+          <a href="https://github.com/Richard-Hein?tab=repositories"  target="_blank">
             <Icon icon={<FaGithub />}> </Icon>
           </a>
           {/* <a href="https://www.linkedin.com/in/pyae-sone-hein-24069b255?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">
             <Icon icon={<FaLinkedin />}> </Icon>
 
           </a> */}
-          <a href="https://t.me/richard_hein_24">
+          <a href="https://t.me/richard_hein_24 " target="_blank">
             <Icon icon={<FaTelegram  />}> </Icon>
 
           </a>
@@ -97,7 +98,7 @@ const Hero = () => {
         </div>
       </div>
 
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-2 max-w-[65rem] absolute bottom-[80px]">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-2 max-w-[65rem] absolute bottom-[80px] text-white">
         <motion.p
           initial={{ y: 20, opacity: 0 }}
           animate={{ y: 0, opacity: 1 }}
@@ -107,7 +108,7 @@ const Hero = () => {
           }}
           className="border-0 md:border-e border-primary pr-2 "
         >
-          <span class="text-xs">🟡</span> Open To Learn Anything
+          <span class="text-xs">🟡</span> Tech Enthusiast 
         </motion.p>
         <motion.p
           initial={{ y: 20, opacity: 0 }}
@@ -118,7 +119,7 @@ const Hero = () => {
           }}
           className="px-0 md:px-2 "
         >
-          <span class="text-xs">🟡</span> Life-Long Learning Enjoyer
+          <span class="text-xs">🟡</span>  Lifelong Learner
         </motion.p>
         {/* <p>Building Frontend Modern Website</p> */}
       </div>

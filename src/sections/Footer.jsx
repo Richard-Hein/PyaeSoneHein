@@ -11,16 +11,16 @@ const Footer = () => {
           pyaesone.dev.web@gmail.com
           </h4>
         <div className="space-x-3">
-               <a href="https://www.facebook.com/richard.hein.783827?mibextid=ZbWKwL">
+               <a href="https://www.facebook.com/richard.hein.783827?mibextid=ZbWKwL" target="_blank">
           <Icon icon={<FaFacebook />}> </Icon>
           </a>
-        <a href="https://github.com/223mark"><Icon icon={<FaGithub />}> </Icon>
+        <a href="https://github.com/Richard-Hein?tab=repositories" target="_blank"><Icon icon={<FaGithub />}> </Icon>
         
         </a>
-        <a href="https://www.linkedin.com/in/pyae-sone-hein-24069b255?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">
+        {/* <a href="https://www.linkedin.com/in/pyae-sone-hein-24069b255?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">
           <Icon icon={<FaLinkedin />}> </Icon>
-        </a>
-         <a href="https://t.me/richard_hein_24">
+        </a> */}
+         <a href="https://t.me/richard_hein_24" target="_blank">
             <Icon icon={<FaTelegram  />}> </Icon>
 
           </a>

@@ -8,12 +8,12 @@ import Header from "./sections/Header"
 import  Certificates  from "./sections/Certificates"
 
 
-
 function App() {
   
   
   return (
-    <div className="max-w-screen">
+    <div className="max-w-screen ">
+     
     <Header/>
      <Hero/>{/* <div className="divider divider-primary"></div> */}
      <AboutMe />

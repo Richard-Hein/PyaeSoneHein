@@ -12,8 +12,8 @@ const myEducationData = [
     description: "Self-Study Learning",
   },
   {
-    title: "N-2 | Currently Learning",
-    subtitle: "Japanese",
+    title: "N-2 ",
+    subtitle: "Japanese Language",
     date: "2022 - present",
     description: "Aim to be fluent and proficiency",
   },

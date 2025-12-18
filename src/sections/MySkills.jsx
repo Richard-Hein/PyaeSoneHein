@@ -1,5 +1,6 @@
 // icons
 import { IoMdLeaf } from "react-icons/io";
+import { FaJava , FaDocker } from "react-icons/fa";
 import {
   FaReact,
   FaVuejs,
@@ -65,22 +66,7 @@ const MySkills = () => {
         >
           <SiTypescript className=" text-blue-700" />
         </motion.div>
-        <motion.div
-          initial={{ y: 100 }} 
-          whileInView={{ y: 0 }}
-          transition={{ duration: 1, ease: "easeIn" }}
-          className="bg-amber-100 p-2 mx-auto rounded-lg shadow-lg text-[5rem] "
-        >
-          <SiBootstrap className=" text-blue-700" />
-        </motion.div>
-
-        <motion.div 
-         initial={{ y: -100 }} 
-          whileInView={{ y: 0 }}
-          transition={{ duration: 1, ease: "easeIn" }}
-        className="bg-amber-100 p-2 mx-auto rounded-lg shadow-lg text-[5rem] ">
-          <SiTailwindcss className=" text-[#38BDF8]" />
-        </motion.div>
+        
         <motion.div
          initial={{ y: -200 }} 
           whileInView={{ y: 0 }}
@@ -110,32 +96,57 @@ const MySkills = () => {
          className="bg-amber-100 p-2 mx-auto rounded-lg shadow-lg text-[5rem] ">
           <FaLaravel className=" text-[#F9322C]" />
         </motion.div>
+<motion.div
+          initial={{ y: 100 }} 
+          whileInView={{ y: 0 }}
+          transition={{ duration: 1, ease: "easeIn" }}
+          className="bg-amber-100 p-2 mx-auto rounded-lg shadow-lg text-[5rem] "
+        >
+          <SiBootstrap className=" text-blue-700" />
+        </motion.div>
 
-        <motion.div
+        <motion.div 
+         initial={{ y: -100 }} 
+          whileInView={{ y: 0 }}
+          transition={{ duration: 1, ease: "easeIn" }}
+        className="bg-amber-100 p-2 mx-auto rounded-lg shadow-lg text-[5rem] ">
+          <SiTailwindcss className=" text-[#38BDF8]" />
+        </motion.div>
+         <motion.div 
+         initial={{ y: -100 }} 
+          whileInView={{ y: 0 }}
+          transition={{ duration: 1, ease: "easeIn" }}
+        className="bg-amber-100 p-2 mx-auto rounded-lg shadow-lg text-[5rem] ">
+          <IoMdLeaf className=" text-[#47A248]" />
+          
+        </motion.div>
+        {/* <motion.div
         initial={{ y: -100 }} 
           whileInView={{ y: 0 }}
           transition={{ duration: 1, ease: "easeIn" }}
          className="bg-amber-100 p-2 mx-auto rounded-lg shadow-lg text-[5rem] ">
           <SiRedux className=" text-blue-700" />
-        </motion.div>
+        </motion.div> */}
         <motion.div
         initial={{ y: 200 }} 
           whileInView={{ y: 0 }}
           transition={{ duration: 1, ease: "easeIn" }} 
-         className="  w-[135px] h-[80px] md:w-[200px] md:h-[95px]  ">
-          <img
+         className="  bg-amber-100 p-2 mx-auto rounded-lg shadow-lg text-[5rem]  ">
+          <SiMysql className=" text-blue-700" />
+          {/* <img
             src="https://images.seeklogo.com/logo-png/46/1/pinia-logo-png_seeklogo-467284.png"
             alt=""
             className="w-[75%]   md:w-[60%] mx-auto h-full bg-amber-100 rounded-lg"
-          />
+          /> */}
         </motion.div>
+        
 
         <motion.div 
          initial={{ opacity:0, scale:.5 }} 
           whileInView={{ opacity:1, scale:1 }}
           transition={{ duration: 1, ease: "easeIn" }} 
         className="bg-amber-100 p-2 mx-auto rounded-lg shadow-lg text-[5rem] ">
-          <SiMysql className=" text-blue-700" />
+           <FaJava className=" text-orange-400" />
         </motion.div>
 
         <motion.div 
@@ -143,7 +154,7 @@ const MySkills = () => {
           whileInView={{ y: 0 }}
           transition={{ duration: 1, ease: "easeIn" }} 
         className="bg-amber-100 p-2 mx-auto rounded-lg shadow-lg text-[5rem] ">
-          <IoMdLeaf className=" text-[#47A248]" />
+         <FaDocker className="text-blue-500"/>
         </motion.div>
         <motion.div
          initial={{ y: -100 }} 
@@ -152,6 +163,7 @@ const MySkills = () => {
          className="bg-amber-100 p-2 mx-auto rounded-lg shadow-lg text-[5rem] ">
           <FaGitAlt className=" text-[#F05032]" />
         </motion.div>
+        
       </div>
     </section>
   );

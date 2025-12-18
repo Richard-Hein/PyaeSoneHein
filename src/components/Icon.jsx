@@ -10,7 +10,7 @@ const Icon = ({icon}) => {
                  ease: "easeIn"
              }} 
 
-    className="kbd kbd-xl  font-bold ">{icon}</motion.div>
+    className="kbd kbd-xl text-3xl font-bold text-blue-600 bg-transparent">{icon}</motion.div>
     
   )
 }

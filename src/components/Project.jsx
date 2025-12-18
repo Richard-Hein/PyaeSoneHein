@@ -24,7 +24,7 @@
           
           <div className="flex gap-4 mt-4">
             {demo.length > 0 &&(
-             <a href={demo} target="_blank" rel="noreferrer" >
+             <a href={demo} target="_blank" rel="noreferrer"  target="_blank">
               <motion.button initial={{ opacity:0, scale:.5 }} 
           whileInView={{ opacity:1, scale:1 }}
           transition={{ duration: 1, ease: "easeIn" }}  className="btn btn-primary hover:bg-secondary hover:text-white">
@@ -34,7 +34,7 @@
 
 
             )}
-            <a href={url} className="flex items-center">
+            <a href={url} className="flex items-center" target="_blank">
               <button className="text-[15px] font-semibold  hover:underline ">
               Source Code
             </button>

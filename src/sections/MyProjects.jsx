@@ -18,14 +18,23 @@ const MyProjects = () => {
         image="/images/proav_pos.png"
         title="ProAV Shop "
         description="Eccomerce- Product Selling Website building with React, Redux,Express and Mongo "
-        url="https://github.com/223mark/pro_shop-Ecommerce-"
-        demo="https://proshop-138u.onrender.com"
+        url="https://github.com/Richard-Hein/ProAV"
+        demo="https://proav.onrender.com/"
+          
+      />
+      <Project
+        image="/images/e-plant.png"
+        title="Welcome To Paradise Nursery "
+        description="Shopping Cart System built with React, Redux "
+        url="https://github.com/Richard-Hein/E-Plant"
+        demo="https://e-plant-three.vercel.app/"
           
       />
       <Project
         image="/images/deezer.png"
         title="Deezer Clone"
         description="Deezer Clone Website built with Vue3 and Pinia for state management"
+        url="https://github.com/Richard-Hein/Deezer-Clone"
         demo="https://deezer-clone-indol.vercel.app/"
       />
       
@@ -34,22 +43,24 @@ const MyProjects = () => {
         image="/images/natrous.png"
         title="Natrous Travel"
         description="Natrous Travel Website built with SASS"
+        url="https://github.com/Richard-Hein/natours"
         demo="https://natours-pink-nine.vercel.app/"
       />
-      <Project
-        image="/images/nasa.png"
-        title="Nasa Mission Explorer"
-        description="Finding Inheritiable Planets With Control Panel Building With React + Express"
-        url="https://github.com/223mark/nasa_ztm"
-      />
-
-     
       <Project
         image="/images/lara_pos.png"
         title="Laravel Ecom Website"
         description="Ecommerce Website Building With Laravel + Blade"
         url=" https://github.com/Richard-Hein/Laravel_POS"
       />
+      <Project
+        image="/images/nasa.png"
+        title="Nasa Mission Explorer"
+        description="Finding Inheritiable Planets With Control Panel Building With React + Express"
+        url="https://github.com/Richard-Hein/NASA_ZTM"
+      />
+
+     
+      
       
     </section>
   );
