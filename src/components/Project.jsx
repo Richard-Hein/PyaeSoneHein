@@ -1,10 +1,8 @@
   import {motion} from "motion/react"
   const Project = ({ image, title, description, url, demo = ''}) => {
     return (
-      <motion.div
-      initial={{ opacity:0, scale:.5 }} 
-          whileInView={{ opacity:1, scale:1 }}
-          transition={{ duration: .5, ease: "easeIn" }} 
+      <div
+      
         className="flex  flex-col-reverse px-3 items-center justify-between w-full border-b    py-6 sm:flex-row "
       >
         <div className="w-full sm:w-[30%] mt-4 md:mt-0 ">
@@ -15,21 +13,18 @@
            className=" font-semibold tracking-wide text-xl mb-4 underline underline-offset-6 decoration-2 decoration-primary">
             {title}
           </motion.h1>
-          <motion.p
-          initial={{ opacity:0, scale:.5 }} 
-          whileInView={{ opacity:1, scale:1 }}
-          transition={{ duration: 1, ease: "easeIn" }} 
-           className="">{description}</motion.p>
+          <p
+          
+           className="">{description}</p>
           
           
           <div className="flex gap-4 mt-4">
             {demo.length > 0 &&(
-             <a href={demo} target="_blank" rel="noreferrer"  target="_blank">
-              <motion.button initial={{ opacity:0, scale:.5 }} 
-          whileInView={{ opacity:1, scale:1 }}
-          transition={{ duration: 1, ease: "easeIn" }}  className="btn btn-primary hover:bg-secondary hover:text-white">
+             <a href={demo} target="_blank" rel="noreferrer"  >
+              <button initial={{ opacity:0, scale:.5 }} 
+            className="btn btn-primary hover:bg-secondary hover:text-white">
               See Live (VPN)
-            </motion.button>
+            </button>
              </a>
 
 
@@ -49,7 +44,7 @@
             className="w-full h-[200px] sm:h-[350px]  object-cover "
           />
         </div>
-      </motion.div>
+      </div>
     );
   };
 

@@ -1,4 +1,4 @@
-import MyProfileImage from "../../public/images/psh.jpg";
+import MyProfileImage from "../../public/images/My_AVATAR.jpg";
 
 const Header = () => {
    

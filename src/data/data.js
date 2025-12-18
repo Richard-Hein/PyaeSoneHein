@@ -34,9 +34,9 @@ const myDeveloperData = [
   },
   {
     title: "NodeJs|React|Others.....",
-    subtitle: "YouTube,Udemy",
+    subtitle: "Coursera,Udemy,YouTube,",
     date: "2022-present",
-    description: "I've built hands-on skills by working through tutorials on platforms like [e.g., Udemy, YouTube] ",
+    description: "I've built hands-on skills by working through tutorials on platforms like [e.g.Coursera, Udemy, YouTube] ",
   },
   
 ]
