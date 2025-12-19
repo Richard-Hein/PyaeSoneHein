@@ -46,7 +46,7 @@ const AboutMe = () => {
 
         <div className="  mt-6 w-[90%] mx-auto ">
           <p className=" text-justify  text-sm md:text-lg indent-3 md:indent-8">
-            I'm a self-taught developer dedicated to building interactive,
+            I'm a <b className="font-bold text-primary ">full-stack </b> developer dedicated to building interactive,
             user-friendly web experiences. While my path isn't traditional, I’ve
             built a strong foundation through hands-on projects and real-world
             problem-solving. I’m a quick learner driven by curiosity and grit,
